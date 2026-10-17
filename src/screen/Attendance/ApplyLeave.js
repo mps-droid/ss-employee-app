@@ -15,7 +15,6 @@ import React, { useEffect, useState } from "react";
 import images from "../../assets/images";
 import LinearGradient from "react-native-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
-import { Picker } from "@react-native-picker/picker";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import moment from "moment";
 import { base } from "../../Api/Constants";

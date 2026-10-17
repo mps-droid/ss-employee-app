@@ -1,9 +1,0 @@
-{
-  "name": "@social/runtime",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "react": "18.3.1",
-    "react-native": "0.77.2"
-  }
-}
