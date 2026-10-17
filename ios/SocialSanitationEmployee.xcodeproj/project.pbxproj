@@ -16,6 +16,15 @@
 		BB6CF13A5DB01D558BF0D244 /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3382ED977012867D1070647E /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework */; };
 		C329D97CC302B633A71B28F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */; };
 		C7DA53B5FE59697B845A6D54 /* Pods_SocialSanitationEmployee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB50B3BEDC693A987886B25 /* Pods_SocialSanitationEmployee.framework */; };
+		535D81BAEF3E4898AF22B45A /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBD4DDC9973340B6B20B3979 /* Manrope-Bold.ttf */; };
+		D0BE3897376B47258E43F282 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C766C7FEFAE4A3C8D942B61 /* Manrope-ExtraBold.ttf */; };
+		BDAF60277FCD491EAB7474D6 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E42A4726955446FB906C8D0 /* Manrope-Medium.ttf */; };
+		B42780E2C4F941D99D81149A /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC10A9D3516E4674B8504FED /* Manrope-Regular.ttf */; };
+		C241DCD7952A42778A6EBB89 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A4252646314EB6A8CAB9BE /* Manrope-SemiBold.ttf */; };
+		6F276C0719D34486965B62A9 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341D5D97CEB04FEDB07081E4 /* Sora-Bold.ttf */; };
+		F342A9C1A32F4910BE97549C /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08AA631DD39343D993FEE70C /* Sora-Medium.ttf */; };
+		F6EC962E09384E388C17D192 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393CB3FC35F74396B7AE1757 /* Sora-Regular.ttf */; };
+		2E04583B9DC64DF79E8D8AA6 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014B6427F80440F29F5A2DAE /* Sora-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		9DB50B3BEDC693A987886B25 /* Pods_SocialSanitationEmployee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSanitationEmployee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SocialSanitationEmployee/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		BBD4DDC9973340B6B20B3979 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; name = "Manrope-Bold.ttf"; path = "../src/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C766C7FEFAE4A3C8D942B61 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Manrope-ExtraBold.ttf"; path = "../src/assets/fonts/Manrope-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E42A4726955446FB906C8D0 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; name = "Manrope-Medium.ttf"; path = "../src/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FC10A9D3516E4674B8504FED /* Manrope-Regular.ttf */ = {isa = PBXFileReference; name = "Manrope-Regular.ttf"; path = "../src/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		98A4252646314EB6A8CAB9BE /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; name = "Manrope-SemiBold.ttf"; path = "../src/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		341D5D97CEB04FEDB07081E4 /* Sora-Bold.ttf */ = {isa = PBXFileReference; name = "Sora-Bold.ttf"; path = "../src/assets/fonts/Sora-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08AA631DD39343D993FEE70C /* Sora-Medium.ttf */ = {isa = PBXFileReference; name = "Sora-Medium.ttf"; path = "../src/assets/fonts/Sora-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		393CB3FC35F74396B7AE1757 /* Sora-Regular.ttf */ = {isa = PBXFileReference; name = "Sora-Regular.ttf"; path = "../src/assets/fonts/Sora-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		014B6427F80440F29F5A2DAE /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sora-SemiBold.ttf"; path = "../src/assets/fonts/Sora-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +148,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				505018B30A3443F687829296 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -155,6 +174,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		505018B30A3443F687829296 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				BBD4DDC9973340B6B20B3979 /* Manrope-Bold.ttf */,
+				3C766C7FEFAE4A3C8D942B61 /* Manrope-ExtraBold.ttf */,
+				1E42A4726955446FB906C8D0 /* Manrope-Medium.ttf */,
+				FC10A9D3516E4674B8504FED /* Manrope-Regular.ttf */,
+				98A4252646314EB6A8CAB9BE /* Manrope-SemiBold.ttf */,
+				341D5D97CEB04FEDB07081E4 /* Sora-Bold.ttf */,
+				08AA631DD39343D993FEE70C /* Sora-Medium.ttf */,
+				393CB3FC35F74396B7AE1757 /* Sora-Regular.ttf */,
+				014B6427F80440F29F5A2DAE /* Sora-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -254,6 +290,15 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				187589352DB268B100F41B7C /* GoogleService-Info.plist in Resources */,
 				C329D97CC302B633A71B28F5 /* PrivacyInfo.xcprivacy in Resources */,
+				535D81BAEF3E4898AF22B45A /* Manrope-Bold.ttf in Resources */,
+				D0BE3897376B47258E43F282 /* Manrope-ExtraBold.ttf in Resources */,
+				BDAF60277FCD491EAB7474D6 /* Manrope-Medium.ttf in Resources */,
+				B42780E2C4F941D99D81149A /* Manrope-Regular.ttf in Resources */,
+				C241DCD7952A42778A6EBB89 /* Manrope-SemiBold.ttf in Resources */,
+				6F276C0719D34486965B62A9 /* Sora-Bold.ttf in Resources */,
+				F342A9C1A32F4910BE97549C /* Sora-Medium.ttf in Resources */,
+				F6EC962E09384E388C17D192 /* Sora-Regular.ttf in Resources */,
+				2E04583B9DC64DF79E8D8AA6 /* Sora-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -460,7 +505,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SocialSanitationEmployeeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SocialSanitationEmployeeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -617,7 +662,7 @@
 					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
 					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -698,7 +743,7 @@
 					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
 					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

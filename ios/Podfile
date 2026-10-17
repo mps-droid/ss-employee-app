@@ -1,51 +1,35 @@
-ENV['RCT_NEW_ARCH_ENABLED'] = '0'
-
+# Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
     "react-native/scripts/react_native_pods.rb",
     {paths: [process.argv[1]]},
-  )', File.join(__dir__, '..', '..')]).strip
+  )', __dir__]).strip
+
+# Runs react-native-permissions' setup, which only links the handlers listed below.
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native-permissions/scripts/setup.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
 
 platform :ios, min_ios_version_supported
 prepare_react_native_project!
 
-use_frameworks! :linkage => :static
-$RNFirebaseAsStaticFramework = true
-
-def node_require(script)
-   require Pod::Executable.execute_command('node', ['-p',
-     "require.resolve(
-       '#{script}',
-       {paths: [process.argv[1]]},
-     )", File.join(__dir__, '..', '..')]).strip
- end
-
- node_require('react-native/scripts/react_native_pods.rb')
- node_require('react-native-permissions/scripts/setup.rb')
-
- setup_permissions([
+setup_permissions([
   'Camera',
-  'Notifications',
   'PhotoLibrary',
 ])
 
-linkage = ENV['USE_FRAMEWORKS']
-if linkage != nil
-  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
-  use_frameworks! :linkage => linkage.to_sym
-end
+# React Native Firebase needs static frameworks.
+use_frameworks! :linkage => :static
+$RNFirebaseAsStaticFramework = true
 
 target 'SocialSanitationEmployee' do
   config = use_native_modules!
-  $RNFirebaseAsStaticFramework = true
-  pod 'Firebase', :modular_headers => true
-  pod 'FirebaseCore', :modular_headers => true
-   pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
-   pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
-pod 'Firebase/Core'
-pod 'Firebase/Database'
+
   use_react_native!(
     :path => config[:reactNativePath],
+    # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
@@ -57,23 +41,14 @@ pod 'Firebase/Database'
     react_native_post_install(
       installer,
       config[:reactNativePath],
-      :mac_catalyst_enabled => false
+      :mac_catalyst_enabled => false,
+      # :ccache_enabled => true
     )
 
+    # Firebase's static frameworks include React headers that are not modular.
     installer.pods_project.targets.each do |target|
       target.build_configurations.each do |build_config|
         build_config.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
-      end
-    end
-
-    fmt_base = File.join(installer.sandbox.root, 'fmt/include/fmt/base.h')
-    if File.exist?(fmt_base)
-      system("chmod u+w #{fmt_base}")
-      contents = File.read(fmt_base)
-      unless contents.include?('FMT_XCODE_PATCH')
-        contents = contents.gsub('#elif defined(__cpp_consteval)', '#elif 0 // FMT_XCODE_PATCH')
-        contents = contents.gsub('#elif FMT_GCC_VERSION >= 1002 || FMT_CLANG_VERSION >= 1101', '#elif 0 // FMT_XCODE_PATCH')
-        File.write(fmt_base, contents)
       end
     end
   end
