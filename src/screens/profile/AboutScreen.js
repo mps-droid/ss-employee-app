@@ -39,6 +39,8 @@ const styles = StyleSheet.create({
   stack: { gap: space.xl },
   image: {
     width: '100%',
+    // iOS sets a local image's pixel height by default, which overrides aspectRatio.
+    height: undefined,
     aspectRatio: 16 / 10,
     borderRadius: radius.lg,
     backgroundColor: colors.muted,

@@ -53,5 +53,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: colors.background,
   },
-  logo: { width: '64%', maxWidth: 320, aspectRatio: 960 / 558 },
+  // iOS sets a local image's pixel height by default, which overrides aspectRatio.
+  logo: {
+    width: '64%',
+    maxWidth: 320,
+    height: undefined,
+    aspectRatio: 960 / 558,
+  },
 });

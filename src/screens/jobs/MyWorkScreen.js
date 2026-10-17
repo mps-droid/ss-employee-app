@@ -255,7 +255,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  logo: { width: 120, aspectRatio: 960 / 558 },
+  // iOS sets a local image's pixel height by default, which overrides aspectRatio.
+  logo: { width: 120, height: undefined, aspectRatio: 960 / 558 },
   stats: { flexDirection: 'row', gap: space.sm },
   separator: { height: space.sm },
 });

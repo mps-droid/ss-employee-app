@@ -181,6 +181,8 @@ const styles = StyleSheet.create({
   content: { justifyContent: 'center', gap: space.xl },
   logo: {
     width: 180,
+    // iOS sets a local image's pixel height by default, which overrides aspectRatio.
+    height: undefined,
     aspectRatio: 960 / 558,
     alignSelf: 'flex-start',
   },
