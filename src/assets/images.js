@@ -1,7 +1,5 @@
 const images = {
-  splash: require("./splash.jpg"),
   delete: require("./delete.png"),
-  logo: require("./logo.png"),
   back: require("./back.png"),
   profile: require("./profile.png"),
   bookings: require("./bookings.png"),

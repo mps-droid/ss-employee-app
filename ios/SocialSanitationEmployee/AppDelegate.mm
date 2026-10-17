@@ -20,7 +20,7 @@
  
     [FIRApp configure];
   
-  self.moduleName = @"SocialEmployee";
+  self.moduleName = @"SocialSanitationEmployee";
   self.initialProps = @{};
 
   return [super application:application didFinishLaunchingWithOptions:launchOptions];

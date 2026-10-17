@@ -1,40 +1,14 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Image, Platform, Text } from "react-native";
 
 import Profile from "../screen/Profile/Profile";
 import images from "../assets/images";
-import Login from "../screen/Auth/Login";
-import Splash from "../screen/splash/Splash";
-import MyAppointments from "../screen/MyBookings/index";
 import Home from "../screen/HomeScreen/Home";
 import Attendance from "../screen/Attendance/Attendance";
-import AttendanceLeave from "../screen/Attendance/AttendanceLeave";
 import Chat from "../screen/ChatScreen/Chat";
 
 const Tab = createBottomTabNavigator();
-const Stack = createNativeStackNavigator();
-
-export const Navigator = () => {
-  return (
-    <Stack.Navigator initialRouteName="Splash">
-      <Stack.Screen name="Tabs" options={{ headerShown: false }}>
-        {(props) => <MyTabs {...props} />}
-      </Stack.Screen>
-      <Stack.Screen
-        name="Login"
-        options={{ headerShown: false }}
-        component={<Login />}
-      />
-      <Stack.Screen
-        name="Splash"
-        options={{ headerShown: false }}
-        component={<Splash />}
-      />
-    </Stack.Navigator>
-  );
-};
 
 const TabLabel = ({ label, focused }) => (
   <Text

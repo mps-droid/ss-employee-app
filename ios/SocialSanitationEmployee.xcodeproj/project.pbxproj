@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PoolSpaEmployeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PoolSpaEmployeeTests.m */; };
+		00E356F31AD99517003FC87E /* SocialSanitationEmployeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SocialSanitationEmployeeTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		187589352DB268B100F41B7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 187589342DB268B100F41B7C /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BB6CF13A5DB01D558BF0D244 /* Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3382ED977012867D1070647E /* Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework */; };
+		BB6CF13A5DB01D558BF0D244 /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3382ED977012867D1070647E /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework */; };
 		C329D97CC302B633A71B28F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */; };
-		C7DA53B5FE59697B845A6D54 /* Pods_PoolSpaEmployee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB50B3BEDC693A987886B25 /* Pods_PoolSpaEmployee.framework */; };
+		C7DA53B5FE59697B845A6D54 /* Pods_SocialSanitationEmployee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB50B3BEDC693A987886B25 /* Pods_SocialSanitationEmployee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,30 +24,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PoolSpaEmployee;
+			remoteInfo = SocialSanitationEmployee;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* PoolSpaEmployeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolSpaEmployeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SocialSanitationEmployeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialSanitationEmployeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PoolSpaEmployeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolSpaEmployeeTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PoolSpaEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolSpaEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PoolSpaEmployee/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PoolSpaEmployee/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PoolSpaEmployee/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PoolSpaEmployee/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PoolSpaEmployee/main.m; sourceTree = "<group>"; };
-		187589332DB24F0600F41B7C /* PoolSpaEmployee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PoolSpaEmployee.entitlements; path = PoolSpaEmployee/PoolSpaEmployee.entitlements; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SocialSanitationEmployeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialSanitationEmployeeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SocialSanitationEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialSanitationEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SocialSanitationEmployee/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SocialSanitationEmployee/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SocialSanitationEmployee/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SocialSanitationEmployee/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocialSanitationEmployee/main.m; sourceTree = "<group>"; };
+		187589332DB24F0600F41B7C /* SocialSanitationEmployee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = SocialSanitationEmployee.entitlements; path = SocialSanitationEmployee/SocialSanitationEmployee.entitlements; sourceTree = "<group>"; };
 		187589342DB268B100F41B7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3382ED977012867D1070647E /* Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-PoolSpaEmployee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolSpaEmployee.debug.xcconfig"; path = "Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-PoolSpaEmployee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolSpaEmployee.release.xcconfig"; path = "Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolSpaEmployee-PoolSpaEmployeeTests.debug.xcconfig"; path = "Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PoolSpaEmployee/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolSpaEmployee-PoolSpaEmployeeTests.release.xcconfig"; path = "Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests.release.xcconfig"; sourceTree = "<group>"; };
-		9DB50B3BEDC693A987886B25 /* Pods_PoolSpaEmployee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoolSpaEmployee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = PoolSpaEmployee/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3382ED977012867D1070647E /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-SocialSanitationEmployee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSanitationEmployee.debug.xcconfig"; path = "Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-SocialSanitationEmployee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSanitationEmployee.release.xcconfig"; path = "Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.debug.xcconfig"; path = "Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SocialSanitationEmployee/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.release.xcconfig"; path = "Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB50B3BEDC693A987886B25 /* Pods_SocialSanitationEmployee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialSanitationEmployee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SocialSanitationEmployee/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB6CF13A5DB01D558BF0D244 /* Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework in Frameworks */,
+				BB6CF13A5DB01D558BF0D244 /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,20 +64,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7DA53B5FE59697B845A6D54 /* Pods_PoolSpaEmployee.framework in Frameworks */,
+				C7DA53B5FE59697B845A6D54 /* Pods_SocialSanitationEmployee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PoolSpaEmployeeTests */ = {
+		00E356EF1AD99517003FC87E /* SocialSanitationEmployeeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PoolSpaEmployeeTests.m */,
+				00E356F21AD99517003FC87E /* SocialSanitationEmployeeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PoolSpaEmployeeTests;
+			path = SocialSanitationEmployeeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -88,10 +88,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PoolSpaEmployee */ = {
+		13B07FAE1A68108700A75B9A /* SocialSanitationEmployee */ = {
 			isa = PBXGroup;
 			children = (
-				187589332DB24F0600F41B7C /* PoolSpaEmployee.entitlements */,
+				187589332DB24F0600F41B7C /* SocialSanitationEmployee.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				187589342DB268B100F41B7C /* GoogleService-Info.plist */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
@@ -101,15 +101,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				9FFB1833918C57ABD7F419AF /* PrivacyInfo.xcprivacy */,
 			);
-			name = PoolSpaEmployee;
+			name = SocialSanitationEmployee;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9DB50B3BEDC693A987886B25 /* Pods_PoolSpaEmployee.framework */,
-				3382ED977012867D1070647E /* Pods_PoolSpaEmployee_PoolSpaEmployeeTests.framework */,
+				9DB50B3BEDC693A987886B25 /* Pods_SocialSanitationEmployee.framework */,
+				3382ED977012867D1070647E /* Pods_SocialSanitationEmployee_SocialSanitationEmployeeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PoolSpaEmployee */,
+				13B07FAE1A68108700A75B9A /* SocialSanitationEmployee */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PoolSpaEmployeeTests */,
+				00E356EF1AD99517003FC87E /* SocialSanitationEmployeeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -139,8 +139,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PoolSpaEmployee.app */,
-				00E356EE1AD99517003FC87E /* PoolSpaEmployeeTests.xctest */,
+				13B07F961A680F5B00A75B9A /* SocialSanitationEmployee.app */,
+				00E356EE1AD99517003FC87E /* SocialSanitationEmployeeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-PoolSpaEmployee.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-PoolSpaEmployee.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-SocialSanitationEmployee.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-SocialSanitationEmployee.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PoolSpaEmployeeTests */ = {
+		00E356ED1AD99517003FC87E /* SocialSanitationEmployeeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PoolSpaEmployeeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SocialSanitationEmployeeTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PoolSpaEmployeeTests;
-			productName = PoolSpaEmployeeTests;
-			productReference = 00E356EE1AD99517003FC87E /* PoolSpaEmployeeTests.xctest */;
+			name = SocialSanitationEmployeeTests;
+			productName = SocialSanitationEmployeeTests;
+			productReference = 00E356EE1AD99517003FC87E /* SocialSanitationEmployeeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PoolSpaEmployee */ = {
+		13B07F861A680F5B00A75B9A /* SocialSanitationEmployee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PoolSpaEmployee" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SocialSanitationEmployee" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -197,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = PoolSpaEmployee;
-			productName = PoolSpaEmployee;
-			productReference = 13B07F961A680F5B00A75B9A /* PoolSpaEmployee.app */;
+			name = SocialSanitationEmployee;
+			productName = SocialSanitationEmployee;
+			productReference = 13B07F961A680F5B00A75B9A /* SocialSanitationEmployee.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PoolSpaEmployee" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SocialSanitationEmployee" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PoolSpaEmployee */,
-				00E356ED1AD99517003FC87E /* PoolSpaEmployeeTests */,
+				13B07F861A680F5B00A75B9A /* SocialSanitationEmployee */,
+				00E356ED1AD99517003FC87E /* SocialSanitationEmployeeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,19 +282,19 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -312,7 +312,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,7 +334,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PoolSpaEmployee-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SocialSanitationEmployee-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -347,19 +347,19 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -368,19 +368,19 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee/Pods-PoolSpaEmployee-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee/Pods-SocialSanitationEmployee-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECABEA5B5780C62DC9AF03F6 /* [CP-User] [RNFB] Core Configuration */ = {
@@ -404,19 +404,19 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolSpaEmployee-PoolSpaEmployeeTests/Pods-PoolSpaEmployee-PoolSpaEmployeeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests/Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -426,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PoolSpaEmployeeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SocialSanitationEmployeeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PoolSpaEmployee */;
+			target = 13B07F861A680F5B00A75B9A /* SocialSanitationEmployee */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,14 +452,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PoolSpaEmployeeTests/Info.plist;
+				INFOPLIST_FILE = SocialSanitationEmployeeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,17 +473,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolSpaEmployee.app/PoolSpaEmployee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSanitationEmployee.app/SocialSanitationEmployee";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-PoolSpaEmployee-PoolSpaEmployeeTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SocialSanitationEmployee-SocialSanitationEmployeeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PoolSpaEmployeeTests/Info.plist;
+				INFOPLIST_FILE = SocialSanitationEmployeeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,21 +497,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolSpaEmployee.app/PoolSpaEmployee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialSanitationEmployee.app/SocialSanitationEmployee";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-PoolSpaEmployee.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SocialSanitationEmployee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = PoolSpaEmployee/PoolSpaEmployee.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SocialSanitationEmployee/SocialSanitationEmployee.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DSJB4W4QVD;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = PoolSpaEmployee/Info.plist;
+				INFOPLIST_FILE = SocialSanitationEmployee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,7 +523,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanitationEmployee;
-				PRODUCT_NAME = PoolSpaEmployee;
+				PRODUCT_NAME = SocialSanitationEmployee;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -532,14 +532,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-PoolSpaEmployee.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SocialSanitationEmployee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = PoolSpaEmployee/PoolSpaEmployee.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SocialSanitationEmployee/SocialSanitationEmployee.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DSJB4W4QVD;
-				INFOPLIST_FILE = PoolSpaEmployee/Info.plist;
+				INFOPLIST_FILE = SocialSanitationEmployee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,7 +551,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanitationEmployee;
-				PRODUCT_NAME = PoolSpaEmployee;
+				PRODUCT_NAME = SocialSanitationEmployee;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -728,7 +728,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PoolSpaEmployeeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SocialSanitationEmployeeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -737,7 +737,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PoolSpaEmployee" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SocialSanitationEmployee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -746,7 +746,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PoolSpaEmployee" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SocialSanitationEmployee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

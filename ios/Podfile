@@ -35,16 +35,13 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'PoolSpaEmployee' do
+target 'SocialSanitationEmployee' do
   config = use_native_modules!
   $RNFirebaseAsStaticFramework = true
   pod 'Firebase', :modular_headers => true
   pod 'FirebaseCore', :modular_headers => true
-   pod 'Firebase/Messaging'
    pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
-   pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
    pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
-   pod 'react-native-maps', :path => '../node_modules/react-native-maps'
 pod 'Firebase/Core'
 pod 'Firebase/Database'
   use_react_native!(
@@ -52,7 +49,7 @@ pod 'Firebase/Database'
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'PoolSpaEmployeeTests' do
+  target 'SocialSanitationEmployeeTests' do
     inherit! :complete
   end
 

@@ -31,7 +31,7 @@ const CompleteJob = () => {
           end={{ x: 1, y: 0 }}
         >
           <TouchableOpacity
-            onPress={() => navigation.navigate("Home")}
+            onPress={() => navigation.navigate("Tabs", { screen: "My Work" })}
             style={styles.submitBtn}
             activeOpacity={0.9}
           >
