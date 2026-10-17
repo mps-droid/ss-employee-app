@@ -1,0 +1,138 @@
+# Social Sanitation Employee App (React Native)
+
+# ---------------------------------------------------------------
+# Secrets: signing keys, passwords, certificates, env files
+# Never commit these. Keep them in a password manager or CI secrets.
+# ---------------------------------------------------------------
+*.keystore
+!debug.keystore
+*.jks
+*.p12
+*.pfx
+*.p8
+*.pem
+*.key
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+**/signing.properties
+**/keystore.properties
+**/KEYSTORE_CREDENTIALS*
+*service-account*.json
+play-store-credentials*.json
+.env
+.env.*
+!.env.example
+
+# Firebase native config files (download from the Firebase console; see .env.example)
+**/google-services.json
+**/GoogleService-Info.plist
+
+# ---------------------------------------------------------------
+# Local machine config
+# ---------------------------------------------------------------
+local.properties
+**/.xcode.env.local
+
+# ---------------------------------------------------------------
+# Dependencies
+# ---------------------------------------------------------------
+node_modules/
+.npm/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+**/Pods/
+/vendor/bundle/
+
+# ---------------------------------------------------------------
+# Build output and release artifacts
+# ---------------------------------------------------------------
+build/
+*.jsbundle
+android/app/src/main/assets/index.android.bundle*
+*.apk
+*.aab
+*.ipa
+*.dSYM
+*.dSYM.zip
+android/app/release/
+
+# ---------------------------------------------------------------
+# Android / Gradle
+# ---------------------------------------------------------------
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+
+# ---------------------------------------------------------------
+# iOS / Xcode
+# ---------------------------------------------------------------
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ---------------------------------------------------------------
+# fastlane
+# ---------------------------------------------------------------
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# ---------------------------------------------------------------
+# Metro / Watchman
+# ---------------------------------------------------------------
+.metro-health-check*
+.watchman-cookie-*
+
+# ---------------------------------------------------------------
+# Tests and coverage
+# ---------------------------------------------------------------
+/coverage
+.nyc_output/
+
+# ---------------------------------------------------------------
+# Logs and temporary files
+# ---------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+*.tmp
+
+# ---------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

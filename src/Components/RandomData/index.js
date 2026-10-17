@@ -1,0 +1,121 @@
+export const randomdata = [
+  {
+    id: 1,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "SUCCESS",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 2,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "DELETED",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 3,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "REJECTED",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 4,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "REJECTED",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 5,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "DELETED",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 6,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "REJECTED",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+  {
+    id: 7,
+    created_at: "30 Sept",
+    name: "jhon wick",
+    message: "Hey guys! ",
+    time: "4:45 PM",
+    email: "abc@gmail.com",
+    booking_status: "PENDING",
+    bookings: {
+      service_booking: {
+        name: "Wax & Strip",
+      },
+      full_address: "111/7 address near india",
+    },
+    date: "30 Sept 2024",
+    time: "10:10 AM",
+  },
+];

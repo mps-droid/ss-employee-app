@@ -1,0 +1,41 @@
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "1.9.22"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("com.google.gms:google-services:4.4.2")
+        classpath("com.android.tools.build:gradle:8.7.2")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22")
+    }
+    subprojects {
+        afterEvaluate { subproject ->
+            if ((subproject.plugins.hasPlugin('android') || subproject.plugins.hasPlugin('com.android.application') || subproject.plugins.hasPlugin('com.android.library')) && subproject.extensions.findByName('android')) {
+                subproject.android.compileOptions.sourceCompatibility = 17
+                subproject.android.compileOptions.targetCompatibility = 17
+            }
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'androidx.core:core:1.16.0'
+    }
+}
