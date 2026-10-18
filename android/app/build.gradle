@@ -9,9 +9,10 @@ react {
 }
 
 /**
- * Set this to true to run Proguard on Release builds to minify the Java bytecode.
+ * R8 shrinks and obfuscates the Java and Kotlin code in release builds. Its mapping file
+ * goes into the app bundle, so Play Console can deobfuscate crash and ANR reports.
  */
-def enableProguardInReleaseBuilds = false
+def enableProguardInReleaseBuilds = true
 
 /**
  * The JavaScriptCore flavour, used only when Hermes is turned off in gradle.properties.
@@ -35,8 +36,8 @@ android {
         applicationId "com.socialemployee"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 6
-        versionName "1.1.0"
+        versionCode 7
+        versionName "1.1.1"
     }
     packaging {
         jniLibs {
